@@ -1,1 +1,1 @@
-# spring-pet-clinic
+# springboot-pet-clinic
