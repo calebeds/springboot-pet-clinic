@@ -47,7 +47,6 @@
 		<developerConnection>
 			scm:git:git@github.com:calebeds/springboot-pet-clinic.git
 		</developerConnection>
-	  <tag>springboot-pet-clinic-0.0.1</tag>
   </scm>
 
 

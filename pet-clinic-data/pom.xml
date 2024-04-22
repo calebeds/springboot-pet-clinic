@@ -56,6 +56,5 @@
     </build>
 
   <scm>
-    <tag>pet-clinic-data-0.0.1</tag>
   </scm>
 </project>
