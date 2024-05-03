@@ -1,12 +1,9 @@
 package me.calebeoliveira.springbootpetclinic.bootstrap;
 
-import me.calebeoliveira.springbootpetclinic.controllers.OwnerController;
 import me.calebeoliveira.springbootpetclinic.model.Owner;
 import me.calebeoliveira.springbootpetclinic.model.Vet;
 import me.calebeoliveira.springbootpetclinic.services.OwnerService;
 import me.calebeoliveira.springbootpetclinic.services.VetService;
-import me.calebeoliveira.springbootpetclinic.services.map.OwnerMapService;
-import me.calebeoliveira.springbootpetclinic.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
