@@ -1,11 +1,13 @@
 package me.calebeoliveira.springbootpetclinic.services.map;
 
 import me.calebeoliveira.springbootpetclinic.model.Specialty;
-import me.calebeoliveira.springbootpetclinic.services.SpecialtiesService;
+import me.calebeoliveira.springbootpetclinic.services.SpecialtyService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-public class SpecialtiesMapService extends AbstractMapService<Specialty, Long> implements SpecialtiesService {
+@Service
+public class SpecialtyMapService extends AbstractMapService<Specialty, Long> implements SpecialtyService {
     @Override
     public Set<Specialty> findAll() {
         return super.findAll();
