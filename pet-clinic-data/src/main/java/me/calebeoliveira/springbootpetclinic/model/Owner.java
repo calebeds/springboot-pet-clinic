@@ -32,7 +32,7 @@ public class Owner extends Person {
                  String city,
                  String telephone,
                  Set<Pet> pets) {
-        super();
+        super(id, firstName, lastName);
         this.address = address;
         this.city = city;
         this.telephone = telephone;
